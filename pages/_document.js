@@ -6,8 +6,8 @@ export default function Document() {
       <Head>
           <title>Portafolio</title>
           <meta name="description" content="Portafolio personal de Marcelo Juan Surco Salas"/>
-          <link rel="shortcut icon" href="/static/coding.png" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"/>
+          <link rel="shortcut icon" href="/static/coding.png" />
       </Head>
       <body>
         <Main />
