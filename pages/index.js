@@ -18,6 +18,7 @@ const Index = ()=>(
                         <div className="col-8">
                             <h1>Marcelo Surco</h1>
                             <h3>Student and Front End developer</h3>
+                            <h6>Portafolio creado con NextJs</h6>
                             <p>Actual estudiante de la Universidad de Ingenería y Tecnología (UTEC) en la que me desarrollo en el estudio de la Ciencia computacional, actualmente me encuentro en el 6to ciclo. Soy una persona apasionada por la programación y el aprendizaje, además tengo facilidad de comunicación en grupos de trabajo, y me cuesta poco adaptarme a diferentes ámbitos. Estoy buscando mi primer trabajo para poner en práctica todos mis conocimientos adquiridos hasta el momento.
                             </p>
                             <Link href="/hireme">
