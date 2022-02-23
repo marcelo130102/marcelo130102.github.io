@@ -52,7 +52,7 @@ const Index = ()=>(
             <div className="col-md-8">
                 <div className="card bg-light mb-3">
                     <div className="card-body">
-                        <h2>Estudios</h2>
+                        <h3>Estudios</h3>
                         <ul>
                             {
                                 study.map((study, i)=>(
