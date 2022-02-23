@@ -36,7 +36,7 @@ const Index = ()=>(
             <div className="col-md-4">
                 <div className="card bg-light">
                     <div className="card-body">
-                        <h1>Conocimientos</h1>
+                        <h3>Conocimientos</h3>
                         {
                             skills.map((skill, i)=>(
                                 <Skill 
@@ -52,7 +52,7 @@ const Index = ()=>(
             <div className="col-md-8">
                 <div className="card bg-light mb-3">
                     <div className="card-body">
-                        <h1>Estudios</h1>
+                        <h2>Estudios</h2>
                         <ul>
                             {
                                 study.map((study, i)=>(
@@ -69,8 +69,8 @@ const Index = ()=>(
                 </div>
                 <div className="card bg-light mb-3">
                     <div className="card-body">
-                        <h1>Experiencia</h1>
-                        <h3>En busca de mi primer empleo</h3>
+                        <h2>Experiencia</h2>
+                        <p>En busca de mi primer empleo</p>
                     </div>
                 </div>
             </div>

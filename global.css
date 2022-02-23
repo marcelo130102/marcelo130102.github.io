@@ -15,3 +15,7 @@
 .circular--square {
     border-radius: 50%;
   }
+
+.none{
+    display:block;
+}
