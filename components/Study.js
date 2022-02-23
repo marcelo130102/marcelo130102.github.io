@@ -1,4 +1,4 @@
-const Study = ({name, age, description, i})=>(
+const Study = ({name, age, description})=>(
     <li >
         <h3>{name}</h3>
         <h5>{age}</h5>

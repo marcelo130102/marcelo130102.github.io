@@ -1,4 +1,4 @@
-const Skill= ({name, percentaje, i})=>(
+const Skill= ({name, percentaje})=>(
     <div className ="py-2">
         <h5>{name}</h5>
         <div className="progress">
