@@ -96,11 +96,6 @@ const Index = ()=>(
                                 )) 
                             } 
                         </div>
-                        <div className="text-center mt-4">
-                                <Link href="/portafolio">
-                                    <a className="btn btn-outline-dark">Más proyectos</a>
-                                </Link>
-                        </div>
                     </div>
                 </div>
             </div>
