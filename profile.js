@@ -32,16 +32,20 @@ export const skills = [
     percentaje: 60,
   },
   {
+    name: "NodeJs",
+    percentaje: 70,
+  },
+  {
+    name: "Prisma",
+    percentaje: 70,
+  },
+  {
     name: "C++",
     percentaje: 70,
   },
   {
     name: "Python",
     percentaje: 50,
-  },
-  {
-    name: "NodeJs",
-    percentaje: 70,
   },
 ];
 
