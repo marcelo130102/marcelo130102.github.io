@@ -61,6 +61,12 @@ export const study = [
 
 export const portafolio = [
   {
+    name: "Cactus Net",
+    img: "/cactus_net.png",
+    description: "Ultimo proyecto aún en desarrollo que corresponde a una app web para la muestra y almacenamiento de registros de especies de cactus pertenecientes a un museo, esta aplicación se encuentra desarrollada en NextJs, TypeScript, MondoDB, AWS para las fotografías y Prisma.",
+    link: "https://cactusnet.vercel.app/"
+  },
+  {
     name: "Web de venta de boletos de cine",
     img: "/boletos.jpeg",
     description: "Web desarrollada para la compra de boletos de un cine para el curso de Ingeniería de Software desarrollado en NextJs.",
