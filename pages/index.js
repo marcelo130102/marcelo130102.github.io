@@ -70,7 +70,10 @@ const Index = ()=>(
                 <div className="card bg-light mb-3">
                     <div className="card-body">
                         <h2>Experiencia</h2>
-                        <p>En busca de mi primer empleo</p>
+                        <div>
+                        <h5>Desarrollador Full Stack en Compsust UTEC - 2 meses</h5>
+                        <p>Practicante en el desarrollo de la aplicación web "CactusNet", para museo de la Universidad Nacional de San Marcos.</p>
+                        </div>
                     </div>
                 </div>
             </div>
