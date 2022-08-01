@@ -28,8 +28,8 @@ export const skills = [
     percentaje: 50,
   },
   {
-    name: "PostgreSQL & MySQL",
-    percentaje: 60,
+    name: "PostgreSQL & MySQL & MongoDB",
+    percentaje: 70,
   },
   {
     name: "NodeJs",
