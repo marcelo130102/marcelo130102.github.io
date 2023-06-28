@@ -6,6 +6,7 @@ export default function Document() {
       <Head>
           <title>Portafolio</title>
           <meta name="description" content="Portafolio personal de Marcelo Juan Surco Salas"/>
+          <meta name="google-site-verification" content="g_yqZXLmSEsmBOX0iVdoOBWaxo-X1EIAla9_Bj3DErA" />
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.css"/>
           <link rel="shortcut icon" href="https://cdn-icons.flaticon.com/png/512/3242/premium/3242257.png?token=exp=1645579033~hmac=b1a75c00229b4a3adcd664860a25d8c9" />
       </Head>
