@@ -5,7 +5,7 @@ import Skill from "../components/Skill";
 import Study from "../components/Study";
 import Proyecto from "../components/Portafolio";
 
-const Index = ()=>(
+const Index = () => (
     <Layout>
         {/** Header Card */}
         <header className="row">
@@ -13,18 +13,15 @@ const Index = ()=>(
                 <div className="card card-body bg-secondary text-ligth">
                     <div className="row">
                         <div className="col-4">
-                            <img className = "img-fluid"src = "perfil.jpg" alt = "Foto Marcelo"/>
+                            <img className="img-fluid" src="perfil.jpg" alt="Foto Marcelo" />
                         </div>
                         <div className="col-8">
                             <h1>Marcelo Surco</h1>
-                            <h3>Student and Front End developer</h3>
-                            <h6>Portafolio creado con NextJs</h6>
-                            <p>Actual estudiante de la Universidad de Ingenería y Tecnología (UTEC) en la que me desarrollo en el estudio de la Ciencia computacional, actualmente me encuentro en el 6to ciclo. Soy una persona apasionada por la programación y el aprendizaje, además tengo facilidad de comunicación en grupos de trabajo, y de adaptabilidad a diferentes ambientes de trabajo. Estoy buscando mi primer trabajo para poner en práctica todos mis conocimientos adquiridos hasta el momento.
+                            <h3>Software Engineer</h3>
+                            <h6>Portafolio in NextJs</h6>
+                            <p>I'm a tech enthusiast and a problem solver, constantly seeking new challenges and learning opportunities. I love solving problems and sharing my knowledge with others.
                             </p>
-                            <Link href="/hireme">
-                               <a>Hire Me</a>
-                            </Link>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -36,14 +33,14 @@ const Index = ()=>(
             <div className="col-md-4">
                 <div className="card bg-light">
                     <div className="card-body">
-                        <h3>Conocimientos</h3>
+                        <h3>Skills</h3>
                         {
-                            skills.map((skill, i)=>(
-                                <Skill 
-                                    name={skill.name} 
-                                    percentaje={skill.percentaje} 
+                            skills.map((skill, i) => (
+                                <Skill
+                                    name={skill.name}
+                                    percentaje={skill.percentaje}
                                     key={i}
-                                    />
+                                />
                             ))
                         }
                     </div>
@@ -52,30 +49,48 @@ const Index = ()=>(
             <div className="col-md-8">
                 <div className="card bg-light mb-3">
                     <div className="card-body">
-                        <h3>Estudios</h3>
+                        <h3>Studies</h3>
                         <ul>
                             {
-                                study.map((study, i)=>(
-                                    <Study 
-                                        name={study.name} 
-                                        age={study.age} 
+                                study.map((study, i) => (
+                                    <Study
+                                        name={study.name}
+                                        age={study.age}
                                         description={study.description}
                                         key={i}
-                                        />
+                                    />
                                 ))
                             }
                         </ul>
                     </div>
                 </div>
                 <div className="card bg-light mb-3">
-                    <div className="card-body">
-                        <h2>Experiencia</h2>
-                        <div>
-                        <h5>Desarrollador Full Stack en Compsust UTEC - 2 meses</h5>
-                        <p>Practicante en el desarrollo de la aplicación web "CactusNet", para museo de la Universidad Nacional de San Marcos.</p>
-                        </div>
-                    </div>
-                </div>
+    <div className="card-body">
+        <h2>Experience</h2>
+        
+        <div>
+            <h5>Lead Software Engineer at Simplicar (February 2023 - present)</h5>
+            <p>Leading the development of the main product, implementing new projects and features of the startup's web app.</p>
+        </div>
+        
+        <div>
+            <h5>EdTech at Inter Silabuz (October 2022 - February 2023)</h5>
+            <p>In charge of theoretical and practical material offered by the backend developer bootcamp given by Silabuz and MTPE.</p>
+        </div>
+        
+        <div>
+            <h5>Freelance Front End Developer at SalvaJama (August 2022)</h5>
+            <p>I worked in the development of a web application for the update of the supplier, for the correct functioning of an ordering application.</p>
+        </div>
+        
+        <div>
+            <h5>Full Stack Developer at Compsust UTEC (June 2022 - July 2022)</h5>
+            <p>I developed a complete web application for a museum, improving the user experience and facilitating the efficient management of information by administrators.</p>
+        </div>
+        
+    </div>
+</div>
+
             </div>
         </div>
 
@@ -86,22 +101,22 @@ const Index = ()=>(
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="text-center">Portafolio</h1>
-                        </div> 
-                            {
-                                portafolio.map((proyecto, i)=>(
-                                    <Proyecto
-                                        img={proyecto.img}
-                                        name={proyecto.name}
-                                        description={proyecto.description}
-                                        link={proyecto.link}
-                                        key={i}
-                                    />
-                                )) 
-                            } 
                         </div>
+                        {
+                            portafolio.map((proyecto, i) => (
+                                <Proyecto
+                                    img={proyecto.img}
+                                    name={proyecto.name}
+                                    description={proyecto.description}
+                                    link={proyecto.link}
+                                    key={i}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
             </div>
+        </div>
 
     </Layout>
 );

@@ -1,107 +1,125 @@
 export const skills = [
   {
     name: "JavaScript & TypeScript",
-    percentaje: 80,
+    percentage: 80,
   },
   {
     name: "Git",
-    percentaje: 81,
+    percentage: 81,
   },
   {
     name: "HTML",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "CSS",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "ReactJs",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "NextJs",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "Bootstrap",
-    percentaje: 50,
+    percentage: 50,
   },
   {
     name: "PostgreSQL & MySQL & MongoDB",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "NodeJs",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "Prisma",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "C++",
-    percentaje: 70,
+    percentage: 70,
   },
   {
     name: "Python",
-    percentaje: 50,
+    percentage: 50,
   },
 ];
 
 export const study = [
   {
-    name: "Pregrado Ciencia de la computación",
-    age: "2019 - Actualidad",
-    description:
-      "Estudiante en la carrera de Ciencia de la computación en la Universidad de Ingeniería y Tecnología (UTEC) en el 3er año o 6to ciclo.",
+    name: "Undergraduate in Computer Science",
+    age: "2022 - present",
+    description: "Student in Computer Science at the Universidad Católica San Pablo"
   },
   {
-    name: "Curso Git de Platzi",
+    name: "Undergraduate in Computer Science",
+    age: "2019 - 2022",
+    description:
+      "Student in the Computer Science career at the University of Engineering and Technology (UTEC) in the 3rd year or 6th semester.",
+  },
+  {
+    name: "Platzi Git Course",
     age: "2020 - 2020",
-    description: "Curso online de manejo de Git y Github.",
+    description: "Online course on Git and Github management.",
   },
 ];
 
 export const portafolio = [
   {
-    name: "Cactus Net",
-    img: "/cactus_net.png",
-    description: "Ultimo proyecto aún en desarrollo que corresponde a una app web para la muestra y almacenamiento de registros de especies de cactus pertenecientes a un museo, esta aplicación se encuentra desarrollada en NextJs, TypeScript, MondoDB, AWS para las fotografías y Prisma.",
-    link: "https://cactusnet.vercel.app/"
+    name: "Simplicar",
+    img: "/simplicar.png",
+    description: "Startup web app based on vehicle services management such as maintenance, SOAT, technical inspection, with the difference that the startup handles the entire process and flow of procedures to deliver the vehicle with the requested service",
+    link: "https://simplicar.pe/"
   },
   {
-    name: "Web de venta de boletos de cine",
+    name: "Brain Brief",
+    img: '/brainbrief.png',
+    description: "Small project for the creation of a startup that uses AI to generate news and receive them via Whatsapp",
+    link: "https://www.brainbrief.xyz/"
+  },
+  {
+    name: "Cactus Net",
+    img: "/cactus_net.png",
+    description: "Project corresponding to a web app for displaying and storing records of cactus species belonging to a museum, this application is developed in NextJs, TypeScript, MongoDB, AWS for photos, and Prisma.",
+    link: "https://www.cactusnetpe.com/especies"
+  },
+  {
+    name: "Movie Tickets Sales Website",
     img: "/boletos.jpeg",
-    description: "Web desarrollada para la compra de boletos de un cine para el curso de Ingeniería de Software desarrollado en NextJs.",
+    description: "Web developed for purchasing movie tickets for the Software Engineering course developed in NextJs.",
     link: "https://github.com/marcelo130102/WebCineNext"
   },
   {
-    name: "Página web de películas",
+    name: "Movie Website",
     img: "/grilla.png",
     description:
-      "Web creada para mostrar películas extraídas de una API, donde se puede acceder a cada una para ver su descripción",
+      "Web created to display movies extracted from an API, where you can access each one to see its description",
     link: "https://github.com/marcelo130102/WebdePel-culas",
   },
   {
-    name: "Motor de búsqueda de Tweets",
+    name: "Tweet Search Engine",
     img: "/proyectoBD2_2.png",
     description:
-      "Un motor de búsqueda de tweets obtenidos por la API de Twitter, el cual muestre sus resultados de tweets en base a la palabra o palabras clave ingresadas en una web.",
+      "A tweet search engine obtained from the Twitter API, which displays tweet results based on the entered word or keywords on a website.",
     link: "https://github.com/jneirar/base_de_datos_II_proyecto_2",
   },
   {
-    name: "Web de reconocimiento de rostros",
+    name: "Face Recognition Web",
     img: "/proyectoBD2_3.png",
     description:
-      "Web desarrollada para subir una foto y obtener los rostros más similares a la entrada enviada.",
+      "Web developed to upload a photo and obtain the most similar faces to the uploaded entry.",
     link: "https://github.com/jneirar/base_de_datos_II_proyecto_3",
   },
   {
-    name: "Sistema Gestor de Bases de Datos (SGBD)",
+    name: "Database Management System (DBMS)",
     img: "/proyectoBD2_1.jpeg",
     description:
-      "Desarrollar un Sistema Gestor de Bases de Datos (SGBD) con sus principales funciones para el manejo de datos.",
+      "Develop a Database Management System (DBMS) with its main functions for data management.",
     link: "https://github.com/jneirar/Proyecto1BDII",
   },
 ];
+
