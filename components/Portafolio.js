@@ -10,7 +10,7 @@ const Proyecto = ({img, name, description, link, i})=>(
             <div className="card-body">
                 <h3>{name}</h3>
                 <p>{description}</p>
-                <a href={link}>Saber más</a>
+                <a href={link}>View more</a>
             </div>
         </div>
     </div>

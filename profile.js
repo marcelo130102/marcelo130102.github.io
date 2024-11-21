@@ -70,6 +70,12 @@ export const study = [
 
 export const portafolio = [
   {
+    name: 'Vale.pe',
+    img: '/vale.png',
+    description: 'Startup web app based on based on giving credits to mechanical workshops for the purchase of spare parts',
+    link: 'https://vale.pe/'
+  },
+  {
     name: "Simplicar",
     img: "/simplicar.png",
     description: "Startup web app based on vehicle services management such as maintenance, SOAT, technical inspection, with the difference that the startup handles the entire process and flow of procedures to deliver the vehicle with the requested service",
