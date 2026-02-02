@@ -1,8 +1,22 @@
-.container{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Cambia 150px por el tamaño deseado de cada flor */
-    gap: 10px; /* Espacio entre las flores */
-    justify-items: center; /* Centra horizontalmente los objetos */
+.wrapper {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: calc(var(--header-height) + var(--space-2xl)) var(--space-lg) var(--space-2xl);
+}
+
+.title {
+  text-align: center;
+  margin: 0 0 var(--space-2xl);
+  font-size: var(--text-2xl);
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--space-lg);
+  justify-items: center;
 }
 
 .flower{
