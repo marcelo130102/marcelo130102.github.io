@@ -10,6 +10,8 @@ import {
   SiAmazonwebservices,
   SiDocker,
   SiTailwindcss,
+  SiSupabase,
+  SiOpenai,
 } from 'react-icons/si'
 import {
   FaGitAlt,
@@ -34,6 +36,8 @@ const iconMap = {
   SiAmazonwebservices,
   SiDocker,
   SiTailwindcss,
+  SiSupabase,
+  SiOpenai,
   FaGitAlt,
   FaHtml5,
   FaCss3Alt,

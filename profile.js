@@ -4,6 +4,8 @@ export const skills = [
   { name: 'React', icon: 'FaReact' },
   { name: 'Next.js', icon: 'SiNextdotjs' },
   { name: 'Python', icon: 'FaPython' },
+  { name: 'AI/ML', icon: 'SiOpenai' },
+  { name: 'Supabase', icon: 'SiSupabase' },
   { name: 'AWS', icon: 'SiAmazonwebservices' },
   { name: 'Docker', icon: 'SiDocker' },
   { name: 'MongoDB', icon: 'SiMongodb' },
@@ -45,12 +47,31 @@ export const portafolio = [
     description: 'GIPE++ project: web app for Untung Jawa Island — discover Jakarta\'s island paradise. Next.js, React, Node.js, MongoDB, Tailwind, AWS.',
     link: 'https://untung-jawa.vercel.app/',
   },
+
+  {
+    name: 'COAR Alumni · Repositorio IB',
+    img: '/coar-alumni.png',
+    description: 'Academic repository platform for the IB Diploma Program at COAR Alumni Arequipa. Manage and disseminate academic works, advanced search, document access for students and researchers.',
+    link: 'https://coar-alumni.vercel.app/',
+  },
+  {
+    name: 'EduTech · Plataforma de Aprendizaje',
+    img: '/edtech-ricardo.png',
+    description: 'Learning platform (EdTech). Educational platform with session-based access for students and instructors.',
+    link: 'https://edtech-ricardo.vercel.app/',
+  },
   {
     name: 'Vale.pe',
     img: '/vale.png',
     description: 'Startup web app for giving credits to mechanical workshops for spare parts.',
     link: 'https://vale.pe/',
   },
+  {
+    name: 'Movie App (Learning)',
+    img: '/movie-app-bd.png',
+    description: 'University course project: movie catalog app with DynamoDB. Browse films, view details, and admin panel. Next.js.',
+    link: 'https://proyecto-bd-2-nu.vercel.app/',
+  },  
   {
     name: 'Simplicar',
     img: '/simplicar.png',

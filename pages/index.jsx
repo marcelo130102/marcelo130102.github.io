@@ -17,7 +17,7 @@ const experience = [
   {
     role: 'Software Engineer',
     company: 'Pact (US Remote)',
-    period: 'Nov 2025 – Present',
+    period: 'Nov 2025 – Feb 2026',
     description: 'Developing core backend services and APIs for a next-generation cybersecurity platform. Designing scalable, event-driven architectures with Node.js/TypeScript and AWS. Implementing secure coding practices and zero-trust concepts while leveraging AI tools. Collaborating within a distributed, remote-first engineering team. Technologies: Node.js, TypeScript, AWS, Docker, REST APIs, Event-driven Architecture.',
   },
   {
